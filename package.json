@@ -1,0 +1,31 @@
+{
+    "name": "crmgraphqlcurso",
+    "version": "1.0.0",
+    "description": "Curso de GraphQL",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TavoDevCode/CrmGraphQL.git"
+    },
+    "author": "Gustavo Hernandez Hidalgo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TavoDevCode/CrmGraphQL/issues"
+    },
+    "homepage": "https://github.com/TavoDevCode/CrmGraphQL#readme",
+    "dependencies": {
+        "apollo-server": "^3.6.7",
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.0",
+        "graphql": "^16.3.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.9"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
